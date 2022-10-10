@@ -14,7 +14,7 @@ const Header = () => {
                         </p>
                         <h1 className='text-3xl text-[#001b5a] mt-3 lg:text-4xl font-[800]'><strong>Get the right <br /> background check for <br /> every  job</strong></h1>
 
-                        <buttom className="mt-3 btn w-full text-xl p-3 h-16 ">
+                        <buttom className="mt-3 lg:mt-5 btn w-full text-xl p-3 h-16 ">
                             I'm ready now.
                             <span className='rounded-full  caret-lime-200'>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 bg-[#191d24] h-10  ">
