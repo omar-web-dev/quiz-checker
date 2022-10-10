@@ -2,8 +2,8 @@ import React from 'react';
 
 const Navber = () => {
     return (
-        <div className='px-2 lg:px-[10%]'>
-            <div className="navbar bg-base-100 block">
+        <div className='px-2 lg:px-[10%] bg-gray-100'>
+            <div className="navbar px-0 block  bg-gray-100">
                 <div className=" flex justify-between">
 
                     <div className="dropdown block">
