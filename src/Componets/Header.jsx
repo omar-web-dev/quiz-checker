@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <div className=" bg-gray-100 lg:px-[10%]">
+        <div className=" bg-gray-200 lg:px-[10%]">
             <div className="block md:flex items-center">
                 <div className="mt-10 p-10 text-center w-[calc( 50% - 10px)]">
                     <img src={'https://www.backgroundchecks.com/hubfs/images/persona/operations/hero-banner.svg'} alt="hero-banner" width="481" />

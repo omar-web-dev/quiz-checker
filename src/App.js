@@ -5,7 +5,7 @@ import { router } from './utils/Routers';
 const App = () => {
   
   return (
-    <div>
+    <div className='pb-[500px] bg-slate-200'>
       <RouterProvider router={router} />
     </div>
   );
