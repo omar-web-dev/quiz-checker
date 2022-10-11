@@ -1,17 +1,14 @@
-import './App.css';
-import Header from './Componets/Header';
-import Navber from './Componets/Navber';
-import ErorrPage from './Layout/ErorrPage';
+import React from 'react';
+import { RouterProvider } from 'react-router-dom';
+import { router } from './utils/Routers';
 
-
-function App() {
+const App = () => {
+  
   return (
-    <div className='pb-[500px]'>
-      <Navber/>
-      <Header/>
-      <ErorrPage/>
+    <div>
+      <RouterProvider router={router} />
     </div>
   );
-}
+};
 
 export default App;

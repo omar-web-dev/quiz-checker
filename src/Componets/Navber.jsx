@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Navber = () => {
     return (
@@ -11,9 +12,15 @@ const Navber = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
                         <ul className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-[290px] text-center">
-                            <li><a>Home</a></li>
-                            <li><a>Statistics </a></li>
-                            <li><a>Blog</a></li>
+                            <li><NavLink to='/home'
+                                aria-label='Home'
+                                title='Home'>Home</NavLink></li>
+                            <li><NavLink to='/statistics'
+                                aria-label='Statistics'
+                                title='Statistics'>Statistics </NavLink></li>
+                            <li><NavLink to='/blog'
+                                aria-label='Blog'
+                                title='Blog'>Blog</NavLink></li>
                         </ul>
                     </div>
                     <a className="btn btn-ghost normal-case text-xl lg:hidden  flex">Quizzes</a>
@@ -21,9 +28,15 @@ const Navber = () => {
                 <div className="navbar-center hidden lg:flex justify-between">
                     <a className="btn btn-ghost normal-case text-xl lg:flex hidden ">Quizzes</a>
                     <ul className="menu menu-horizontal p-0">
-                        <li><a>Home</a></li>
-                        <li><a>Statistics </a></li>
-                        <li><a>Blog</a></li>
+                        <li><NavLink to='/home'
+                            aria-label='Home'
+                            title='Home'>Home</NavLink></li>
+                        <li><NavLink to='/statistics'
+                            aria-label='Statistics'
+                            title='Statistics'>Statistics </NavLink></li>
+                        <li><NavLink to='/blog'
+                            aria-label='Blog'
+                            title='Blog'>Blog</NavLink></li>
                     </ul>
                 </div>
             </div>
