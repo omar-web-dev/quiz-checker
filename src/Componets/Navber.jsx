@@ -15,6 +15,9 @@ const Navber = () => {
                             <li><NavLink to='/home'
                                 aria-label='Home'
                                 title='Home'>Home</NavLink></li>
+                            <li><NavLink to='/quiz'
+                                aria-label='Quiz'
+                                title='Quiz'>Quiz</NavLink></li>
                             <li><NavLink to='/statistics'
                                 aria-label='Statistics'
                                 title='Statistics'>Statistics </NavLink></li>
@@ -31,6 +34,9 @@ const Navber = () => {
                         <li><NavLink to='/home'
                             aria-label='Home'
                             title='Home'>Home</NavLink></li>
+                        <li><NavLink to='/quiz'
+                                aria-label='Quiz'
+                                title='Quiz'>Quiz</NavLink></li>
                         <li><NavLink to='/statistics'
                             aria-label='Statistics'
                             title='Statistics'>Statistics </NavLink></li>
