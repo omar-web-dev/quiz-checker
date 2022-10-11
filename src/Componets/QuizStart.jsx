@@ -4,10 +4,24 @@ import Questions from './Questions';
 
 const QuizStart = () => {
     const quiz = useLoaderData()
-    const {questions} = quiz.data
-    // console.log(questions[0]);
+    const { questions, name } = quiz.data
+    const count = questions.length
 
-    return questions.map(quizs => <Questions key={quizs.id} quizs={quizs}/>);
+    return (
+        <div >
+            <div className='mt-10 text-center text-xl'>
+                <h1>Quiz of  {name}</h1>
+                <p>Total Questions: {(count >= 10) ? count : `0${count}`}</p>
+            </div>
+            <div className=''>
+            </div>
+            <div >
+                <ol className='list-decimal w-[500px] mx-auto' >
+                    {questions.map(quizs => <Questions key={quizs.id} quizs={quizs} />)};
+                </ol>
+            </div>
+        </div>
+    )
 };
 
 export default QuizStart;

@@ -15,7 +15,6 @@ const Home = () => {
             <div className='mt-32 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 p-3 lg:px-[10%]'>
                 {data.map(quiz => <Crads key={quiz.id} quiz={quiz} quizStartHandelar={quizStartHandelar}/>)}
             </div>
-
         </div>
     );
 };

@@ -7,6 +7,10 @@ import QuizStart from '../Componets/QuizStart'
 import Statistics from '../Componets/Statistics'
 import Main from '../Layout/Main'
 
+// const just =(dd)=>{
+//   console.log(dd);
+// }
+
 export const router = createBrowserRouter([
   {
     path: '/',

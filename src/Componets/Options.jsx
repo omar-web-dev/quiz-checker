@@ -17,9 +17,6 @@ const Options = ({ option, correctAnswer }) => {
 
     return (
         <>
-        {/* <button onClick={notify} className="btn p2 quiz-btn btn-block ">
-            {option}
-        </button> */}
         <button onClick={()=>selectOption(option)} className="btn p2 quiz-btn btn-block ">
             {option}
         </button>

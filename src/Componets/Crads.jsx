@@ -12,7 +12,7 @@ const Crads = ({ quiz }) => {
                 <div className=" mt-2">
                     <div className='flex justify-between'>
                         <h3 className="p-2  bg-gray-200 rounded hover:animate-pulse">{name}</h3>
-                        <p className="p-2 w-20 bg-gray-200 rounded hover:animate-pulse">Quiz {total}</p>
+                        <p className="p-2 w-20 bg-gray-200 rounded hover:animate-pulse">Quiz {(total>=10)?  total : `0${total}`}</p>
                     </div>
                     <Link to={`${id}`} rel="noopener noreferrer">
                         <button className="mt-2 p-2 w-full bg-gray-200 rounded hover:animate-pulse">Start</button>
