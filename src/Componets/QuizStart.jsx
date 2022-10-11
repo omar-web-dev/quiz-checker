@@ -16,7 +16,7 @@ const QuizStart = () => {
             <div className=''>
             </div>
             <div >
-                <ol className='list-decimal w-[500px] mx-auto' >
+                <ol className='list-decimal w-full p-5 md:p-0  md:w-[500px] mx-auto' >
                     {questions.map(quizs => <Questions key={quizs.id} quizs={quizs} />)};
                 </ol>
             </div>
