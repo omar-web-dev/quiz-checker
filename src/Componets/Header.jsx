@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -14,15 +15,15 @@ const Header = () => {
                         </p>
                         <h1 className='text-3xl md:text-5xl md:my-7 uppercase text-[#001b5a] mt-3 lg:text-5xl font-bold'><strong>Get the right <br /> background check for <br /> every  job</strong></h1>
 
-                        <button className="mt-3 lg:mt-5 btn w-full text-xl p-3 h-16 ">
-                            I'm ready now.
-                            <span className='rounded-full  caret-lime-200'>
+                        <Link to='/quiz' className="mt-3 lg:mt-5 btn w-full text-xl p-3 h-16 ">
+                        I'm ready now
+                            <span className='ml-5 rounded-full  caret-lime-200'>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 bg-[#191d24] h-10  ">
                                     <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" clipRule="evenodd" />
                                 </svg>
 
                             </span>
-                        </button>
+                        </Link>
                     </div>
                 </div>
             </div>
