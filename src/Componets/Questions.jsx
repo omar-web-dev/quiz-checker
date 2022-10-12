@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Questions = ({ quizs }) => {
     const { question, options, correctAnswer } = quizs
     const correctAns = () => {
-        toast(correctAnswer)
+        toast('👉 '+ correctAnswer)
     }
     return (
         <li className='text-xl mt-10 font-medium md:ml-0 ml-5 text-gray-800'>

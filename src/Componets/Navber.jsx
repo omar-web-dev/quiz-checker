@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navber = () => {
     return (
@@ -26,10 +26,10 @@ const Navber = () => {
                                 title='Blog'>Blog</NavLink></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl lg:hidden  flex">Quizzes</a>
+                    <Link to='/' className="btn btn-ghost normal-case text-xl lg:hidden  flex">Quizzes</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex justify-between">
-                    <a className="btn btn-ghost normal-case text-xl lg:flex hidden ">Quizzes</a>
+                    <Link to='/' className="btn btn-ghost normal-case text-xl lg:flex hidden ">Quizzes</Link>
                     <ul className="menu menu-horizontal p-0">
                         <li><NavLink to='/home'
                             aria-label='Home'
