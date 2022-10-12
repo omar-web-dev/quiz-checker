@@ -3,16 +3,16 @@ import React from 'react';
 const Header = () => {
     return (
         <div className=" bg-gray-200 lg:px-[10%]">
-            <div className="block md:flex items-center">
+            <div className="block lg:flex items-center">
                 <div className="mt-10 p-10 text-center w-[calc( 50% - 10px)]">
-                    <img src={'https://www.backgroundchecks.com/hubfs/images/persona/operations/hero-banner.svg'} alt="hero-banner" width="481" />
+                    <img className='w-full' src={'https://www.backgroundchecks.com/hubfs/images/persona/operations/hero-banner.svg'} alt="hero-banner" width="481" />
                 </div>
                 <div className="imgtxt-text  w-[calc( 50% - 10px)] lg:mt-10 p-10 ">
                     <div className="imgtxt-headline width6 regular-heading lg:p-0 p-5">
                         <p className="text-2xl  text-[#0A40CE]">
                             <span className="text-[#0A40CE] uppercase font-normal" >Operations managers</span>
                         </p>
-                        <h1 className='text-3xl text-[#001b5a] mt-3 lg:text-4xl font-[800]'><strong>Get the right <br /> background check for <br /> every  job</strong></h1>
+                        <h1 className='text-3xl md:text-5xl md:my-7 uppercase text-[#001b5a] mt-3 lg:text-5xl font-bold'><strong>Get the right <br /> background check for <br /> every  job</strong></h1>
 
                         <button className="mt-3 lg:mt-5 btn w-full text-xl p-3 h-16 ">
                             I'm ready now.
